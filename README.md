@@ -1,16 +1,13 @@
-# Conexão com o banco de dados [X]
+# Tecnologias utilizadas
+- Nodejs
+- Ejs
+- SaaS
+- Javascript
+- Express
+- MySql
 
-# Carrinho de compras []
-- Onde vai juntar os produtos pra finalizar as compras
-- Pegar o id atraves da sessao
-
-# Login de usuario []
-- Pagina unica de logins de usuario
-- Vai servir para cardapio, delivery e promoções(futuras modificações)
-- No delivery so pedir o cep
-- Autenticação [X]
-- Validação dos inputs
-- Criptografar a senha
+## Sobre o Projeto
+- Criado pra por em pátrica alguns conceitos de Nodejs com Express utilizando o MySql para o banco de dados.
 
 <!--A = { 1, 2, 3, 4, 5, 6 } 
 B = { 2, 3, 4, 5, 6, 7, 8 }  
