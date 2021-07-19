@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+    <%- include('../partials/head');  %>
+    <title>Delivery</title>
+
+<body>
+
+  <%- include('../partials/header'); %>
+  <!--,{pagina: 'Recursos'}-->
+
+<div class="container div">
+    <p class="text-center text-white fonte">Faça seu pedido já</p>
+</div>
+
+<form method="POST" class="form">
+  <div class="form-row">
+    <div class="col">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" class="form-control" placeholder="example@gmail.com" required autofocus pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+    </div>
+  </div>
+
+  <div class="form-row">           
+    <div class="col">
+      <label for="password">Senha</label>
+      <input id="password" name="password" class="form-control" type="password" required placeholder="Senha">
+    </div>
+  </div>
+
+  <a class="center" href="/cadastro">Cadastre-se</a>
+  <a class="center" href="#">Esqueceu sua senha?</a>
+  <input id="but" type="submit" class="btn btn-outline-danger btn-lg btn-block"  value="Criar pedido"></input>
+</form>
+
+<section class="text-center esp">
+  <img class="rounded" src="/img/delivery/ifood.png" alt="Ifood">
+  <img class="rounded" src="/img/delivery/rappi delivery.png" alt="Rappi">
+  <img class="rounded" src="/img/delivery/uber eats delivery.png" alt="Uber eats">
+</section>
+    
+    <%- include('../partials/script'); %>
+    
+    <script src="/js/disable.js"></script>
+    <script src="/js/validation.js"></script>
+</body>
+</html>

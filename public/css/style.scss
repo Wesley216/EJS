@@ -1,0 +1,154 @@
+@import "./_nav";
+@import "./_form";
+
+body{
+    background-image: url(/img/background.jpg);
+
+    &::-webkit-scrollbar{
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb{
+      background-color: white;
+      border-radius: 15px;
+      border: none;
+    }
+
+    &::-webkit-scrollbar-track{
+      background-color: gray;
+    }
+}
+.section{
+    margin-top: 4%;
+}
+main{
+  div{
+      margin-top: 5%;
+  }
+}
+.div{
+  height: 140px;
+  margin-top: 4%;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.bot{
+  margin-left: 26%;
+}
+.botao{
+  height: 48px;
+  width: 126px;
+}
+.esp{
+  margin-top: 5%;
+}
+.fonte{
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.espa{
+  margin-top: 10%;
+}
+/*.btn{
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, red , blue);
+  border-image-slice: 1;
+  &:hover{
+    background-color: #fff;
+  }
+}*/
+@media screen and (min-width: 320px) and (max-width: 568px){
+  .botao{
+    height: 42px;
+    width: 110px;
+  }
+  .bot{
+    margin-left: 15%;
+  }
+  .ape{
+     margin-left: 15%;
+  }
+  .fonte{
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    
+  }
+  .div{
+    height: 100px;
+  }
+  .espa{
+    margin-top: 25%;
+  }
+  
+}
+@media screen and(min-width: 360px)  and (max-width: 640px){
+  .botao{
+      height: 48px;
+      width: 125px;
+  }
+  .bot{
+      margin-left: 15%;
+  }
+  .ape{
+    margin-left: 15%;
+  }
+  .fonte{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .div{
+    height: 90px;
+  }
+  .espa{
+    margin-top: 20%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 812px){
+  .botao{
+    height: 48px;
+    width: 125px;
+  }
+  .bot{
+    margin-left: 15%;
+  }
+  .ape{
+    margin-left: 15%;
+  }
+  .fonte{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+  }
+  .tao{
+    word-break: break-word;
+  }
+  .espa{
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .botao{
+    height: 48px;
+    width: 125px;
+  }
+  .bot{
+    margin-left: 18%;
+  }
+  .ape{
+    margin-left: 0.5%;
+  }
+  .fonte{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .div{
+    height: 90px;
+  }
+}

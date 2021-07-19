@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+    <%- include('../partials/head');  %>
+    <title>Cárdapio</title>
+
+<body>
+    
+    <%-  include('../partials/header'); %>
+
+    <!--, {pagina: 'Sobre'}-->
+
+    <main>
+        <div class="container">
+            <h1 class="text-center text-white fonte">Cárdapio</h1>
+        </div>
+    </main>
+
+    <section class="container">
+        <article class="card-deck">
+            <div class="card border-transparent bg-transparent mb-3">
+                <img class="card-img-top" src="/img/Hamburguer de picanha/Picanha.png" alt="Hamburgueres de Picanha">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title text-white text-center">Hamburgures de Picanha</h5>
+                  <a href="/cardapio/hamburguerpicanha" class="btn btn-outline-light btn-block btn-lg">Ver opções</a>
+                </div>
+              </div>
+              <div class="card border-transparent bg-transparent mb-3">
+                <img class="card-img-top" src="/img/Hamburguer de carne bovina/duplo cheddar.png" alt="Hamburgueres de carne bovina">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title text-white text-center">Hamburgures de Carne Bovina</h5>
+                  <a href="/cardapio/hamburguerbovino" class="btn btn-outline-light btn-block btn-lg">Ver opções</a>
+                </div>
+              </div>
+        </article>
+    </section>
+
+    <section class="container">
+        <article class="card-deck">
+            <div class="card border-transparent bg-transparent mb-3">
+                <img class="card-img-top" src="/img/Hamburguer de frango/big tasty frango.png" alt="Hamburgueres de frango">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title text-white text-center">Hamburgures de Carne de Frango</h5>
+                  <a href="/cardapio/hamburguerfrango" class="btn btn-outline-light btn-block btn-lg">Ver opções</a>
+                </div>
+              </div>
+
+              <div class="card border-transparent bg-transparent mb-3">
+                <img class="card-img-top" src="/img/acompanhamento/rustica.png" alt="Batata Rústica">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title text-white text-center">Acompanhamentos</h5>
+                  <a href="/cardapio/acompanhamento" class="btn btn-outline-light btn-block btn-lg">Ver opções</a>
+                </div>
+              </div>
+        </article>
+    </section>
+    
+    <section class="container">
+        <article class="card-deck">
+            <div class="card border-transparent bg-transparent mb-3">
+                <img class="card-img-top pepsi" src="/img/bebidas/pep1.png" alt="Bebidas">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title text-white text-center">Bebidas</h5>
+                  <a href="/cardapio/bebidas" class="btn btn-outline-light btn-block btn-lg">Ver opções</a>
+                </div>
+              </div>
+
+              <div class="card border-transparent bg-transparent mb-3">
+                <img class="card-img-top" src="/img/sobremesas/flurry exagerado.png" alt="Sobremesas">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title text-white text-center">Sobremesas</h5>
+                  <a href="/cardapio/sobremesa" class="btn btn-outline-light btn-block btn-lg">Ver opções</a>
+                </div>
+              </div>
+        </article>
+    </section>
+    
+    <%- include('../partials/script'); %>
+</body>
+</html>

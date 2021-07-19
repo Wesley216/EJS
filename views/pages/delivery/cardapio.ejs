@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+    <%- include('../../partials/head'); %>
+    <title>Delivery - Cárdapio</title>
+
+<body>
+
+<%- include('../../partials/header'); %>    
+
+<div class="container">
+  <p class="text-center text-white fonte">Cárdapio</p>
+</div>
+
+<section class="container esp" id="filter-btn-box">
+  <button id="bot-all" class="bot btn btn-outline-danger main-btn filter-btn botao active">Todos</button>
+  <button id="bot-picanha" class="btn btn-outline-danger main-btn filter-btn botao">Picanha</button>
+  <button id="bot-frango" class="ape btn btn-outline-danger main-btn filter-btn botao">Frango</button>
+  <button id="bot-bovino" class="btn btn-outline-danger main-btn filter-btn botao">Bovino</button>
+</section>
+
+<!--PICANHA-->
+<section class="container esp">
+  <article class="card-deck">
+
+    <div class="card border-transparent bg-transparent mb-3 project-box picanha">
+      <img class="card-img-top" src="/img/Hamburguer de picanha/Picanha.png" alt="">
+      <div class="card-body text-secondary">
+        <h5 class="card-title text-white text-center">Picanha bacon cheddar</h5>
+        <form class="form" method="POST">
+          <button type="submit" class="btn btn-outline-light btn-block btn-lg" name="product" value="Picanha bacon cheddar">Ver opções</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="card border-transparent bg-transparent mb-3 project-box picanha">
+      <img class="card-img-top" src="/img/Hamburguer de picanha/picanha bacon crispy.png" alt="">
+      <div class="card-body text-secondary">
+        <h5 class="card-title text-white text-center">Picanha crispy bacon</h5>
+        <form method="post" class="form">
+          <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Picanha crispy bacon">Ver opções</button>
+        </form>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="container">
+    <article class="card-deck">
+      <div class="card border-transparent bg-transparent mb-3 project-box picanha">
+        <img class="card-img-top" src="/img/Hamburguer de picanha/PicanhaClubhouse2.png" alt="">
+        <div class="card-body text-secondary">
+          <h5 class="card-title text-white text-center">Picanha house 2</h5>
+          <form action="" method="post" class="form">
+            <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Picanha house 2">Ver opções</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="card border-transparent bg-transparent mb-3 project-box picanha">
+        <img class="card-img-top" src="/img/Hamburguer de picanha/picanhagalaxia2.png" alt="">
+        <div class="card-body text-secondary">
+          <h5 class="card-title text-white text-center">Picanha galáxia</h5>
+          <form action="" method="post" class="form">
+            <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Picanha galaxia">Ver opções</button>
+          </form>
+        </div>
+      </div>
+    </article>
+</section>
+
+<!--FRANGO-->
+<section class="container">
+    <article class="card-deck">
+      
+      <div class="card border-transparent bg-transparent mb-3 project-box frango">
+        <img class="card-img-top" src="/img/Hamburguer de frango/SUPREME CRISPY.png" alt="">
+        <div class="card-body text-secondary">
+          <h5 class="card-title text-white text-center">Supreme crispy</h5>
+          <form method="post" class="form">
+            <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Supreme crispy">Ver opções</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="card border-transparent bg-transparent mb-3 project-box frango">
+        <img class="card-img-top" src="/img/Hamburguer de frango/3.png" alt="">
+        <div class="card-body text-secondary">
+          <h5 class="card-title text-white text-center">Supreme grill frango</h5>
+          <form method="post" class="form">
+            <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Supreme grill frango">Ver opções</button>
+          </form>
+        </div>
+      </div>
+      
+    </article>
+</section>
+
+<section class="container">
+    <article class="card-deck">
+          <div class="card border-transparent bg-transparent mb-3 project-box frango">
+            <img class="card-img-top" src="/img/Hamburguer de frango/extra frango.png" alt="">
+            <div class="card-body text-secondary">
+              <h5 class="card-title text-white text-center">Extra frango</h5>
+              <form method="post" class="form">
+                <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Extra frango">Ver opções</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="card border-transparent bg-transparent mb-3 project-box frango">
+            <img class="card-img-top" src="/img/Hamburguer de frango/supreme grill frango.png" alt="">
+            <div class="card-body text-secondary">
+              <h5 class="card-title text-white text-center">Supreme grill frango</h5>
+              <form method="post" class="form">
+                <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Supreme grill frango">Ver opções</button>
+              </form>
+            </div>
+        </div>
+    </article>
+</section>
+    
+<!--BOVINO-->
+<section class="container">
+    <article class="card-deck">
+        <div class="card border-transparent bg-transparent mb-3 project-box bovino">
+            <img class="card-img-top" src="/img/Hamburguer de carne bovina/bigtastyturboqueijo.png" alt="">
+            <div class="card-body text-secondary">
+              <h5 class="card-title text-white text-center">Big tasty turbo queijo</h5>
+              <form method="post" class="form">
+                <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Big tasty turbo queijo">Ver opções</button>
+              </form>
+            </div>
+          </div>
+    
+          <div class="card border-transparent bg-transparent mb-3 project-box bovino">
+            <img class="card-img-top" src="/img/Hamburguer de carne bovina/duplo cheddar.png" alt="">
+            <div class="card-body text-secondary">
+              <h5 class="card-title text-white text-center">Cheddar duplo</h5>
+              <form method="post" class="form">
+                <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Cheddar duplo">Ver opções</button>
+              </form>
+            </div>
+          </div>
+    </article>
+</section>
+
+<section class="container">
+    <article class="card-deck">
+        <div class="card border-transparent bg-transparent mb-3 project-box bovino">
+            <img class="card-img-top" src="/img/Hamburguer de carne bovina/cheddar 3.0.png" alt="">
+            <div class="card-body text-secondary">
+              <h5 class="card-title text-white text-center">Cheddar 4.0</h5>
+              <form method="post" class="form">
+                <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Cheddar 4.0">Ver opções</button>
+              </form>
+            </div>
+          </div>
+      
+          <div class="card border-transparent bg-transparent mb-3 project-box bovino">
+            <img class="card-img-top" src="/img/Hamburguer de carne bovina/stacer atomico 3.0.png" alt="">
+            <div class="card-body text-secondary">
+              <h5 class="card-title text-white text-center">Atomico 3.0</h5>
+              <form method="post" class="form">
+                <button type="submit" class="btn btn-outline-light btn-block btn-lg" data-toggle="modal" data-target=".modal-xl" name="product" value="Atomico 3.0">Ver opções</button>
+              </form>
+            </div>
+          </div>
+    </article>
+</section>
+
+    <%- include('../../partials/script'); %>
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/btn-avalicao.js"></script>
+</body>
+</html>

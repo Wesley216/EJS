@@ -1,0 +1,32 @@
+.form{
+    margin-left: 15%;
+    margin-right: 15%;
+
+    label{
+        color: #ddd;
+    }
+    ::-webkit-input-placeholder {
+        color: #ddd;
+    } 
+    .form-control{
+        background: transparent;
+        color: #ddd;
+        border-color: #808080;
+
+        box-shadow: 0 0 5px rgba(0, 0, 0, .5) inset;
+    
+        &:focus{
+            color: #ddd;
+            border-color: #fff;
+        }
+    }
+
+    button{
+        margin-top: 3%;
+    }
+
+    option{
+        background: transparent;
+        color: gray;
+    }
+}
